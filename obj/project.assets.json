@@ -1,0 +1,124 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.1": {
+      "MIConvexHull/1.1.18.1016": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win": {
+      "MIConvexHull/1.1.18.1016": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x64": {
+      "MIConvexHull/1.1.18.1016": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.1/win-x86": {
+      "MIConvexHull/1.1.18.1016": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.0/MIConvexHull.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MIConvexHull/1.1.18.1016": {
+      "sha512": "xGFZTZAIY4QqRUhey54jU9w+dDfx/z18n3AUmUMf/s6h8Q8EF3s3Yk3oxYPTmGALeD5xc3WrQ5jjHSDxpTh9Jg==",
+      "type": "package",
+      "path": "miconvexhull/1.1.18.1016",
+      "files": [
+        ".signature.p7s",
+        "content/MIConvexHull.xml",
+        "lib/netstandard1.0/MIConvexHull.deps.json",
+        "lib/netstandard1.0/MIConvexHull.dll",
+        "lib/netstandard1.0/MIConvexHull.pdb",
+        "lib/portable-net4+sl4+wp7+win8/MIConvexHull.dll",
+        "lib/portable-net4+sl4+wp7+win8/MIConvexHull.pdb",
+        "miconvexhull.1.1.18.1016.nupkg.sha512",
+        "miconvexhull.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.1": [
+      "MIConvexHull >= 1.1.18.1016"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\tomso\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\tomso\\source\\repos\\ConvexHell\\ConvexHell\\ConvexHell.csproj",
+      "projectName": "ConvexHell",
+      "projectPath": "C:\\Users\\tomso\\source\\repos\\ConvexHell\\ConvexHell\\ConvexHell.csproj",
+      "packagesPath": "C:\\Users\\tomso\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tomso\\source\\repos\\ConvexHell\\ConvexHell\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\tomso\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net471"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net471": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net471": {
+        "dependencies": {
+          "MIConvexHull": {
+            "target": "Package",
+            "version": "[1.1.18.1016, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

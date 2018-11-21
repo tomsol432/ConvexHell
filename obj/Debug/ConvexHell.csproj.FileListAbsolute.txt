@@ -13,3 +13,6 @@ C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.csproj.Ge
 C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.csproj.CoreCompileInputs.cache
 C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.exe
 C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.pdb
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\bin\Debug\MIConvexHull.dll
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\bin\Debug\MIConvexHull.pdb
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.csproj.CopyComplete
