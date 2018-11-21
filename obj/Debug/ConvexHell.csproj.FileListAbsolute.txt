@@ -1,0 +1,15 @@
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\bin\Debug\ConvexHell.exe.config
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\bin\Debug\ConvexHell.exe
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\bin\Debug\ConvexHell.pdb
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.csprojAssemblyReference.cache
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\MainWindow.g.cs
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\App.g.cs
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell_MarkupCompile.cache
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell_MarkupCompile.lref
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\MainWindow.baml
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.g.resources
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.Properties.Resources.resources
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.csproj.GenerateResource.cache
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.csproj.CoreCompileInputs.cache
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.exe
+C:\Users\tomso\source\repos\ConvexHell\ConvexHell\obj\Debug\ConvexHell.pdb
