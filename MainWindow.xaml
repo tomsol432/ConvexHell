@@ -11,8 +11,8 @@
             <ColumnDefinition Width="1407*"/>
             <ColumnDefinition Width="185*"/>
         </Grid.ColumnDefinitions>
-        <Grid x:Name="GridCanvasHolder" Margin="10,10,1,10" Background="Black">
-            <Canvas x:Name="CanvasMap" Background="Black"/>
+        <Grid x:Name="GridCanvasHolder" Margin="10,10,1,10">
+            <Canvas x:Name="CanvasMap"/>
         </Grid>
         <Button x:Name="ButtonGenerateDataset" Content="Generate dataset" Margin="3,10,10,0" VerticalAlignment="Top" Grid.Column="1" Height="20" Click="ButtonGenerateDataset_Click"/>
         <Slider x:Name="SliderPointAmount" Margin="3,35,10,0" VerticalAlignment="Top" Minimum="5" Maximum="200" SmallChange="1" Interval="1" ValueChanged="SliderPointAmount_ValueChanged" IsSnapToTickEnabled="True" Grid.Column="1" Height="18"/>
