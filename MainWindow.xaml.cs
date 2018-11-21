@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using MIConvexHull;
+using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using MIConvexHull;
 
 namespace ConvexHell
 {
@@ -36,6 +27,7 @@ namespace ConvexHell
         Vector[] points;
         int[] order;
         Vector center;
+        Random random = new Random();
         private void ButtonGenerateDataset_Click(object sender, RoutedEventArgs e)
         {
             CanvasMap.Children.Clear();
@@ -101,10 +93,6 @@ namespace ConvexHell
 
         }
         
-        private void ButtonDrawCenter_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
        
         public void Solve(Vector center,Vector[] vectors, int [] order)
         {
@@ -128,11 +116,11 @@ namespace ConvexHell
                 {
                     Line line = new Line()
                     {
-                        X1 = convexData[i].Position[0],
-                        Y1 = convexData[i].Position[1],
+                        X1 = convexData[i].Position[0] + 5,
+                        Y1 = convexData[i].Position[1] + 5,
 
-                        X2 = convexData[i + 1].Position[0],
-                        Y2 = convexData[i + 1].Position[1],
+                        X2 = convexData[i + 1].Position[0] + 5,
+                        Y2 = convexData[i + 1].Position[1] +5,
                         StrokeThickness = 2,
                         Stroke = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255)),
                     };
@@ -144,11 +132,11 @@ namespace ConvexHell
                     Line line = new Line()
                     {
 
-                        X1 = convexData[i].Position[0],
-                        Y1 = convexData[i].Position[1],
+                        X1 = convexData[i].Position[0] +5,
+                        Y1 = convexData[i].Position[1] +5,
 
-                        X2 = convexData[0].Position[0],
-                        Y2 = convexData[0].Position[1],
+                        X2 = convexData[0].Position[0] +5,
+                        Y2 = convexData[0].Position[1] +5,
 
                         StrokeThickness = 2,
                         Stroke = new SolidColorBrush(Color.FromArgb(255, 255, 255, 255)),

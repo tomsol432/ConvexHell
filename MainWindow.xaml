@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ConvexHell"
         mc:Ignorable="d"
-        Title="MainWindow" Height="900" Width="1600" Background="#FF1D1D1D">
+        Title="Convex Hell" Height="900" Width="1600" Background="#FF1D1D1D">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="1407*"/>
@@ -15,9 +15,8 @@
             <Canvas x:Name="CanvasMap" Background="Black"/>
         </Grid>
         <Button x:Name="ButtonGenerateDataset" Content="Generate dataset" Margin="3,10,10,0" VerticalAlignment="Top" Grid.Column="1" Height="20" Click="ButtonGenerateDataset_Click"/>
-        <Slider x:Name="SliderPointAmount" Margin="3,35,10,0" VerticalAlignment="Top" Minimum="5" Maximum="30" SmallChange="1" Interval="1" ValueChanged="SliderPointAmount_ValueChanged" IsSnapToTickEnabled="True" Grid.Column="1" Height="18"/>
+        <Slider x:Name="SliderPointAmount" Margin="3,35,10,0" VerticalAlignment="Top" Minimum="5" Maximum="200" SmallChange="1" Interval="1" ValueChanged="SliderPointAmount_ValueChanged" IsSnapToTickEnabled="True" Grid.Column="1" Height="18"/>
         <Label x:Name="LabelPCounter" Content="" Margin="3,58,10,0" VerticalAlignment="Top" Foreground="White" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Grid.Column="1" Height="26"/>
-        <Button x:Name="ButtonDrawCenter" Content="Solve" Grid.Column="1" Margin="3,89,10,0" VerticalAlignment="Top" Click="ButtonDrawCenter_Click_1"/>
 
     </Grid>
 </Window>
